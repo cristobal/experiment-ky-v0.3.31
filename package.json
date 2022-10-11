@@ -1,0 +1,25 @@
+{
+  "name": "experiment-ky-v0.3.31",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristobal/experiment-ky-v0.3.31.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristobal/experiment-ky-v0.3.31/issues"
+  },
+  "homepage": "https://github.com/cristobal/experiment-ky-v0.3.31#readme",
+  "dependencies": {
+    "ky": "0.31.3",
+    "ky-universal": "0.10.1"
+  }
+}
