@@ -1,6 +1,12 @@
-# experiment-ky-v0.31
-This experiment branch is here to show the issue around `globalThis.Request` introduced in Ky v0.31, 
-when running on the server side.
+-----
+*__ARCHIVED!__*
+-----
+# experiment-ky-v0.31.3
+This experiment branch is here to show the issue around `globalThis.Request` introduced in Ky v0.31.3, 
+when running on the server side, reported in this issue [here](https://github.com/sindresorhus/ky/issues/458)
+
+## UPDATE
+This was fixed in ky-universal.
 
 ## The Problem
 The problem is the following in [core/constants.ts](https://github.com/sindresorhus/ky/blob/da40323e903fb943c9192e4a43f9dc601d16a5e8/source/core/constants.ts#L7)
